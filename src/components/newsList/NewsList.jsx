@@ -1,5 +1,6 @@
 import React from 'react'
 import NewsCard from '../newsCard/NewsCard'
+import './NewsList.css'
 
 function NewsList({newsData}) {
   return (
