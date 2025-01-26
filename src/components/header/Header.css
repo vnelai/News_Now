@@ -1,3 +1,4 @@
+/* Header container styling */
 .header {
     position: fixed; /* Ensures Header stays in fixed place */
     /* Position Header to the top of the page */
@@ -10,5 +11,13 @@
     width: 100%;  /* Ensures header spans full width */
     z-index: 1000; /* Ensures header stays on top of other content */
     padding: 1rem; /* Adds padding around the header */
+}
+
+/* Home button styling */
+.home-btn {
+    font-weight: bold; /* Make button bold */
+    color: white; /* Change color to white */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 2rem; /* Make font larger */
 }
 
