@@ -13,20 +13,31 @@
 }
 
 .news-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Add transform effect to make card larger when hovered */
 }
 
 /*  News card title */
 .news-card-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #E9C46A;
-    margin-bottom: 10px; 
+    font-size: 1.5rem; /* Increase font-size */
+    font-weight: bold; /* Make text bold */
+    color: #E9C46A; /* Change text color */
+    margin-bottom: 10px; /* Add space at bottom */
 }
 
 /* News card details */
 .news-card-details {
-    font-size:1rem;
-    color: white;
-    margin-bottom: 10px;
+    font-size: 1rem; /* Set font-size */
+    color: white; /* Change text color */
+    margin-bottom: 10px; /* Add space at bottom */
+}
+
+/* Read more button */
+.read-more-btn {
+    font-weight: bold; /* Make text bold */
+    text-decoration: none; /* Remove underline for link */
+    color: #E76F51; /* Change text color */
+}
+
+.read-more-btn:hover {
+    color: #C7533F;
 }
