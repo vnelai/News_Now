@@ -24,8 +24,8 @@
     margin-bottom: 10px; /* Add space at bottom */
 }
 
-/* News card details */
-.news-card-details {
+/* News card description */
+.news-card-description {
     font-size: 1rem; /* Set font-size */
     color: white; /* Change text color */
     margin-bottom: 10px; /* Add space at bottom */
@@ -39,5 +39,9 @@
 }
 
 .read-more-btn:hover {
-    color: #C7533F;
+    color: #C7533F; /* Change text color on hover */
+}
+
+.news-card-details {
+    padding: 12px; /* Add spacing around the news card details container*/
 }
