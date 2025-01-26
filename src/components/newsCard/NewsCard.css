@@ -1,7 +1,8 @@
 /*  News card image styling */
 .news-card-img {
     width: 100%; /* Set width of img to fit container 100% */
-    height: 250px; /* Set img height */
+    max-height: 200px; /* Set max height for img */
+    object-fit: cover;  /*Ensure img fills container completely */
 }
 
 /* News card styling */
@@ -11,7 +12,7 @@
     box-shadow:0 5px 10px rgba(0, 0, 0, 0.1); /* Shadow around card */
     overflow: hidden; /* Ensures the img stays within the rounded corners */
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     height:500px;
 }

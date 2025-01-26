@@ -8,7 +8,7 @@ function NewsCard({article}) {
         <img
         src={article.urlToImage && article.urlToImage !== "" ? article.urlToImage : "public/images/news-fallback-img.jpeg"}
         alt={article.title}
-        className="news-card-image"
+        className="news-card-img"
         />
         {/* Add article details */}
         <div className='news-card-details'>
