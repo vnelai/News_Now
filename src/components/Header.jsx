@@ -2,8 +2,16 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>
-        <h1>News app</h1>
+    <div className="header">
+        <a href="/" className='home-btn'>News Now</a>
+        <nav className="nav">
+        <a href="/technology">Technology</a>
+        <a href="/sports">Sports</a>
+        <a href="/entertainment">Entertainment</a>
+        <a href="/health">Health</a>
+        <a href="/science">Science</a>
+        </nav>
+        <input type="text" placeholder='Search news...' className='search-bar' />
     </div>
   )
 }
