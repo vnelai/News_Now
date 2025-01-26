@@ -4,8 +4,8 @@ import './NewsCard.css'
 function NewsCard({article}) {
   return (
     <div className='news-card'>
-        {/* Add article image */}
-        <img src={article.urlToImage} alt="{article.title}" className='news-card-img'/>
+        {/* Add article image or fallback image */}
+        <img src={article.urlToImage ? article.urlImage :  "public/images/news-fallback-img.jpeg"} alt={article.title} className='news-card-img'/>
 
         {/* Add article details */}
         <div className='news-card-details'>
