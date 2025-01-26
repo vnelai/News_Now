@@ -31,6 +31,10 @@
     display: -webkit-box; /* Necessary for text truncation */
     -webkit-line-clamp: 2; /* Limit to 2 lines */
     -webkit-box-orient: vertical; /* Enable vertical box layout */
+
+    /* Standard line clamp for browsers that don't support Webkit */
+    line-clamp: 2; /* Limit to 2 lines */
+    box-orient: vertical; /* Necessary for truncation  */
 }
 
 /* News card description */
@@ -38,10 +42,14 @@
     font-size: 1rem; /* Set font-size */
     color: white; /* Change text color */
     margin-bottom: 10px; /* Add space at bottom */
-    overflow: hidden; /* Prevent content overflow * */
-    display: -webkit-box; /* Added for text truncation * */
-    -webkit-line-clamp: 3; /* Limit to 3 lines * */
-    -webkit-box-orient: vertical; /* Necessary for truncation * */
+    overflow: hidden; /* Prevent content overflow */
+    display: -webkit-box; /* Added for text truncation */
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical; /* Necessary for truncation */
+
+    /* Standard line clamp for browsers that don't support Webkit */
+    line-clamp: 3; /* Limit to 3 lines */
+    box-orient: vertical; /* Necessary for truncation  */
 }
 
 /* Read more button */
