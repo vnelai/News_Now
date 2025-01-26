@@ -1,4 +1,4 @@
-
+/* Main news-list container styling */
 .news-list {
     display: grid; /* set up as grid container so we can use grid-based layout properties */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Creates a responsive grid */
