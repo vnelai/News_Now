@@ -2,7 +2,6 @@
 .news-card-img {
     width: 100%; /* Set width of img to fit container 100% */
     height: 250px; /* Set img height */
-    /* object-fit: contain; Crop image to fit container */
 }
 
 /* News card styling */
@@ -11,6 +10,10 @@
     border-radius: 20px; /* Rounding corners */
     box-shadow:0 5px 10px rgba(0, 0, 0, 0.1); /* Shadow around card */
     overflow: hidden; /* Ensures the img stays within the rounded corners */
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    height:500px;
 }
 
 .news-card:hover {
@@ -23,6 +26,11 @@
     font-weight: bold; /* Make text bold */
     color: #E9C46A; /* Change text color */
     margin-bottom: 10px; /* Add space at bottom */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show '...' for overflow */
+    display: -webkit-box; /* Necessary for text truncation */
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical; /* Enable vertical box layout */
 }
 
 /* News card description */
@@ -30,19 +38,31 @@
     font-size: 1rem; /* Set font-size */
     color: white; /* Change text color */
     margin-bottom: 10px; /* Add space at bottom */
+    overflow: hidden; /* Prevent content overflow * */
+    display: -webkit-box; /* Added for text truncation * */
+    -webkit-line-clamp: 3; /* Limit to 3 lines * */
+    -webkit-box-orient: vertical; /* Necessary for truncation * */
 }
 
 /* Read more button */
 .read-more-btn {
+    margin-top: auto; /* Push the button to the bottom */
     font-weight: bold; /* Make text bold */
     text-decoration: none; /* Remove underline for link */
     color: #E76F51; /* Change text color */
+    display: inline-block;
 }
 
 .read-more-btn:hover {
     color: #C7533F; /* Change text color on hover */
 }
 
+/* news-card-details styling */
 .news-card-details {
-    padding: 12px; /* Add spacing around the news card details container*/
+    padding: 1rem;
+    flex-grow: 1; /* Makes content expand to fill space */
+    display: flex; /* Added flexbox for centering content */
+    flex-direction: column; /* Stack title, description, and link */
+    justify-content: space-between; /* Space between elements */
 }
+
