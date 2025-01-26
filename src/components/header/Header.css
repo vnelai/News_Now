@@ -38,3 +38,16 @@
 .nav a:hover {
     color:  #e9c46a; /* Change the font color during hover */
 }
+
+/* Search-bar styling */
+.search-bar {
+    border: 1px solid white; /* Set border to solid, white and 1px thickness */
+    border-radius: 5px; /* Rounds border at corners */ 
+    padding: 0.5rem; /* Adds space around the search-bar */
+    margin-right: 2rem; /* Adds space on the right side */
+}
+
+.search-bar::placeholder {
+    font-size: 1.2rem; /* Make placeholder size larger */
+}
+
