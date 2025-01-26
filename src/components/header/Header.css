@@ -11,6 +11,7 @@
     width: 100%;  /* Ensures header spans full width */
     z-index: 1000; /* Ensures header stays on top of other content */
     padding: 1rem; /* Adds padding around the header */
+    align-items: center; /* Vertically aligns the elements in the header */
 }
 
 /* Home button styling */
@@ -21,3 +22,19 @@
     font-size: 2rem; /* Make font larger */
 }
 
+/* Navigation container styling */
+.nav {
+    display: flex; /* Aligns content on same line */
+    gap: 2rem; /* Adds space between elements */
+}
+
+/* Navigation links styling */
+.nav a {
+    color: white; /* Set font color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make font bold */
+}
+
+.nav a:hover {
+    color:  #e9c46a; /* Change the font color during hover */
+}
