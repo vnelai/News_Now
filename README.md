@@ -47,7 +47,7 @@ This will start the app in development mode, and you can view it in your browser
 
 
 Unsolved Problems / Future Improvements
-
+API-free tier limitations: After completing the project and deploying site on render, i noticed that the api data was not populating. Unfortunately, noticed too late that the news-api doesn't allow deployment on free tier. You can view full site by downloading github repo on local host. The live site will only display the header component which did not require an api for its elements. 
 Error Handling: Although the API fetch is wrapped in a try-catch block, we can further improve error handling by displaying user-friendly messages when the API fails to load or if no articles match the query.
 Search Functionality: Currently, the search bar does not have full functionality. Implementing a dynamic search query where users can type in and search for specific news articles would enhance the user experience.
 Pagination: With a large number of articles, pagination would be useful to limit the number of articles displayed on a single page.
