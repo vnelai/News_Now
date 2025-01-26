@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'; // Import React modules
 import Header from './components/header/Header'; // Import Header component 
-import NewsCard from './components/newsCard/NewsCard'; // Import NewsCard component
+import NewsList from './components/newsList/NewsList';
 
 import './App.css';
 
@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <Header/>
-      <NewsCard newsData={newsData}/>
+      <NewsList newsData={newsData}/> {/* Pass newsData as prop to NewsList */}
     </>
   )
 }
