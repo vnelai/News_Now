@@ -2,7 +2,7 @@
 .news-list {
     display: grid; /* set up as grid container so we can use grid-based layout properties */
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Creates a responsive grid */
-    gap: 20px; /* Space between cards */
+    gap: 25px; /* Space between cards */
     padding: 20px; /* Space around news-list container */
-    margin-top: 20px; /* Add space at top */
+    margin-top: 50px; /* Add space at top */
 }

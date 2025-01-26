@@ -5,6 +5,15 @@
     object-fit: contain; /* Crop image to fit container */
 }
 
+/* News card styling */
+.news-card {
+    background-color: #1A6A5A; /* Background color*/
+    border-radius: 20px; /* Rounding corners */
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.1); /* Shadow around card */
+}
 
+.news-card:hover {
+    transform: scale(1.05);
+}
 
 
