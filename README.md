@@ -29,13 +29,13 @@ Media queries used for responsiveness to adapt to different screen sizes.
 Live Site
 
 You can view the live version of the News App here:
-.....
+(https://news-now-mt0z.onrender.com)
 
 
 Usage Instructions
 
 Clone the repository:
-git clone ......
+git clone https://github.com/vnelai/News_Now.git
 Install dependencies:
 cd news-app
 npm install
