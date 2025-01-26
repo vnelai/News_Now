@@ -10,6 +10,7 @@
     background-color: #1A6A5A; /* Background color*/
     border-radius: 20px; /* Rounding corners */
     box-shadow:0 5px 10px rgba(0, 0, 0, 0.1); /* Shadow around card */
+    overflow: hidden; /* Ensures the img stays within the rounded corners */
 }
 
 .news-card:hover {
