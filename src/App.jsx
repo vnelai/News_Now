@@ -11,7 +11,7 @@ function App() {
   // Set up useEffect to handle fetch the news data 
   useEffect( ()=> { 
     const QUERY = 'technology'; // Query example
-    const API_KEY = import.meta.env.VITE_API_KEY // Importing API_KEY from .env file;
+    const API_KEY = import.meta.env.VITE_API_KEY;// Importing API_KEY from .env file;
 
     const fetchNewsData = async () => {
       try {
@@ -37,4 +37,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
